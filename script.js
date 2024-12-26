@@ -9,7 +9,7 @@ function mincost(arr)
 		let cost = arr[0]+arr[1];
 		totalCost+=cost;
 		arr = arr.slice(2);
-		arr.push(totalCost);
+		arr.push(cost);
 	}
 	return totalCost;
 }
