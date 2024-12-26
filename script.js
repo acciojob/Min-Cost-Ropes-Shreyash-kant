@@ -9,7 +9,7 @@ function mincost(arr)
 	let tmp=arr[0]+arr[1];
 	for(i=2;i<arr.length;++i){
 		cost = cost +tmp;
-		temp = tmp+arr[i];
+		tmp = tmp+arr[i];
 	}
 	return cost+tmp;
 }
